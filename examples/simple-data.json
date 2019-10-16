@@ -1,0 +1,5 @@
+{ "app": "monolith", "cpu_time": 345, "io_wait": 8897 }
+{ "app": "db", "cpu_time": 145 }
+{ "app": "monolith", "cpu_time": 852, "io_wait": 12043 }
+{ "app": "monolith", "io_wait": 1134 }
+{ "app": "api", "cpu_time": 103, "io_wait": 98897 }
