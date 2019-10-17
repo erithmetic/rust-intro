@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rust</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-slide-content {
+        font-size: 34px;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-inline-code {
+        color: white;
+        background-color: darkgray;
+        padding: 2px 5px;
+        margin: 0 5px;
+      }
+      table { 
+        width: 100%;
+      }
+      td {
+        border-top: 1px black solid;
+        padding: 5px;
+        text-align: center;
+      }
+      td:first-child {
+        border-right: 1px black solid;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# Rust
+
+## Do safe things faster
+
+---
+
+# Why Rust?
+
+* super fast! (next-fastest compared to C)
+  * low latency
+  * small footprint
+* super safe!
+* nice blend of procedural and functional
+* easy packaging system
+* ruby/rails-like community standards/conventions
+
+---
+
+# Rust-friendly technologies
+
+* microkernels
+* wasm
+
+---
+
+# Why Rust at a SaaS company?
+
+* Crunch large datasets
+* Dev tool binaries (cage)
+* Security critical services
+* Sick of `if err != nil`
+
+---
+
+# Why not Rust?
+
+* Steep learning curve
+  * the borrow-checker is brutal
+  * macros, macros, macros
+* legacy of churn
+  * harder to find resources
+
+---
+
+# Rust vs Go
+
+| Rust            | Go             |
+|-----------------|----------------|
+| Community       | The Google Way |
+| Features        | Basic          |
+| Power users     | Everyone       |
+| Option/unwrap() | if err != nil  |
+| Threads, epoll, channels | Channels       |
+| Virgo         | Capricorn           |
+
+---
+
+# Installation
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+* Rustup: like rbenv
+* Nightly vs stable
+
+---
+
+# Good resources
+
+* Rust book https://doc.rust-lang.org/book/
+* Rust By Example https://doc.rust-lang.org/rust-by-example/
+* Steve Klabnik https://words.steveklabnik.com/
+* Andrew Gallant https://github.com/burntsushi
+* Eric Kidd https://github.com/emk
+
+---
+
+# To the code!
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>
